@@ -1,0 +1,77 @@
+:root:root {
+	--fg-heading: hsl(8deg 74% 25%);
+	--bg: hsl(40deg 35% 93%);
+	--bg-alt: hsl(63deg 43% 82%);
+	--fg-accent: hsl(38deg 57% 61%);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		...
+	}
+}
+
+body {
+	font-family: Faustina, serif;
+	letter-spacing: 1px;
+	background: url("paper.jpeg") var(--bg);
+	background-repeat: repeat;
+	background-size: 100% auto;
+	line-height: 1.2;
+}
+
+#toc#toc {
+	background: none;
+	box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Domine, serif;
+	font-variant: small-caps;
+	color: var(--fg-heading);
+}
+h2 {
+	font-size: 1.8em;
+	margin-bottom: 0;
+}
+h3 {
+	border-bottom: thick solid var(--fg-accent);
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+h2 + *, h3 + * {
+	margin-top: 0;
+}
+
+table {
+	font-family: Hind, sans-serif;
+	letter-spacing: 0;
+}
+caption {
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	margin: 0 !important;
+}
+tbody tr {
+	background: var(--bg);
+}
+tbody tr:nth-child(2n+1) {
+	background: var(--bg-alt);
+}
+table.data th, table.data td {
+	padding: .1em .5em;
+	border: none;
+}
+
+.note.note {
+	background: var(--bg-alt);
+	border-color: var(--fg-heading);
+}
+
+.issue, .note, .example, .assertion, .advisement, blockquote, .amendment, .correction, .addition {
+	border-width: 2px;
+	border-style: none none solid solid;
+}

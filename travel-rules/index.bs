@@ -1,0 +1,228 @@
+<pre class=metadata>
+Title: Overland Journey Rules
+Group: rpg
+Status: DREAM
+Shortname: travel-rules
+Local Boilerplate: header on, footer on, defaults on
+</pre>
+
+<div boilerplate=abstract>
+	No one in Dungeons and Dragons travels into the wilderness lightly.
+	There are griffons and owlbears and goblins and ghosts and territorial elves
+	and all other manner of creatures in the wilds
+	who will be happy to relieve you of your life and treasure,
+	not to mention the everpresent threat of death from exposure and starvation.
+	These are the rules for when the party travels into the wilds
+	for whatever reason they choose.
+
+	These rules are shamelessly ripped off from <a href="http://www.dungeon-world.com/">Dungeon World</a>,
+	one of the best non-D&D books ever written for running D&D,
+	but adapted for 5e.
+</div>
+
+Limiting Rest {#rest}
+=====================
+
+These rules assume that the wilderness is dangerous
+and that the PCs are taking their lives into their own hands
+when they venture out into it.
+As such, while the PCs are out on an expedition between civilised locations,
+or to or from a dangerous destination,
+they **cannot take a long rest**.
+The characters must still sleep or meditate each night in the wilderness or risk exhaustion,
+but they do not get the benefits of a long rest from this.
+Short rests are not impacted.
+
+Upon reaching their destination,
+characters can gain the benefits of a long rest.
+Civilization can provide the access to
+medicine, soft beds, apothecaries to provide spell components, and taverns
+to restore morale necessary for true recuperation.
+Expedition destinations tend to provide safe places to rest,
+and rest you must if you are to face the perils within.
+
+Planning the Journey {#planning}
+================================
+
+The most important part of wilderness expeditions
+that most neophytes ignore to their peril
+is planning the journey.
+Check the campaign map to plan your route.
+
+<table class=data>
+	<caption>Travel Table</caption>
+	<thead>
+		<tr>
+			<th>Terrain
+			<th>Distance/day
+			<th>DC
+			<th>Hazard Danger
+	</thead>
+	<tr><td>Road <td>24 miles <td>10 <td>Setback
+	<tr><td>Plains <td>18 miles <td>10 <td>Setback
+	<tr><td>Forest <td>12 miles <td>15 <td>Dangerous
+	<tr><td>Hills <td>12 miles <td>15 <td>Dangerous
+	<tr><td>Desert <td>12 miles <td>15 <td>Dangerous
+	<tr><td>Mountain <td>6 miles <td>20 <td>Deadly
+	<tr><td>Mountain <td>6 miles <td>20 <td>Deadly
+</table>
+
+This gives the players the estimate of the number of days the journey will take,
+assuming no complications.
+If all characters in the party have mounts,
+multiply the distance traveled by 1.25.
+Mounts may not be used in mountains or swamps without a road.
+
+The Journey {#journey}
+======================
+
+Once the party is in the wild,
+there are three jobs that must be filled.
+If a job isn't filled,
+the roll for it is an automatic failure.
+The difficulty for each roll is based on the terrain the players traverse.
+Each character only rolls once for each leg of the journey,
+the DC is based on the most difficult terrain traveled during that leg.
+
+<dl class=note>
+	<dt>Rangers
+
+	<dd>
+
+		The Players Handbook Ranger's Natural Explorer feature of the ranger
+		is modified under these rules.
+
+		Remove the prevents party becoming lost,
+		and remove doubling food foraged.
+		The Wilderness Ranger's Hunting Grounds is also modified,
+		remove the doubling food foraged feature.
+
+		The ranger automatically succeeds
+		with whatever role they take during the journey.
+		Alternately, the ranger may choose to roll with advantage
+		to try for a 5+ result,
+		but must accept the results if they fail.
+
+		This only applies if traveling through terrain
+		applicable to either of these features.
+</dl>
+
+The Trailblazer {#trailblazer}
+------------------------------
+
+The trailblazer makes a Nature check
+to successfully navigate the terrain
+and make sure the party gets to where it's going.
+If the trailblazer succeeds,
+the party gets to their destination in the expected amount of time.
+
+If the trailblazer succeeds by 5+ on the Nature roll,
+the party finds a shortcut or other method of moving faster than normal;
+the trip only takes 3/4 the normal time.
+
+If the trailblazer fails,
+the party gets lost for a time and a complication occurs.
+The trailblazer chooses one:
+
+* The trip takes much longer than expected.
+	Multiply the travel time by 1.25.
+	If the party is in a race against time,
+	they will lose if this option is taken.
+* The party arrives on time,
+	but suffers a level of exhaustion from marching to make up for lost time.
+* The party arrives on time,
+	but has a random encounter.
+
+The Provisioner {#provisioner}
+------------------------------
+
+The provisioner makes a Survival check
+to plan and purchase provisions
+(food, clothing, equipment, etc.) for the journey,
+to carefully ration out those provisions,
+and to forage and hunt for additional food along the way.
+The base cost for the expedition is 1 gp per day per person.
+If the provisioner succeeds their survival roll,
+the party pays the base cost.
+
+If the provisioner succeeds by 5+, the cost is halved.
+
+If the provisioner fails their roll,
+a complication occurs.
+The provisioner chooses one:
+
+* The expedition costs more than expected.
+	Roll 1d4+1 and multiply the base cost by the result.
+	If the party cannot pay the cost,
+	a different option must be chosen instead.
+* The party is inadequately prepared for the journey.
+	Only half the base cost is paid,
+	but the party reaches their destination with a level of exhaustion.
+* While attempting to forage or hunt for extra supplies,
+	the party has a random encounter.
+
+The Scout {#scout}
+------------------
+
+The scout makes a Perception check
+to watch for danger during the journey.
+If the scout succeeds,
+they successfully steer the party clear of any danger
+(except danger that the trailblazer or provisioner put the party in).
+
+If the scout succeeds by 5+,
+the party is presented with an opportunity--
+they find a hidden treasure cache,
+catch an enemy hunting party unaware,
+come across a roadside shrine that grants the party a boon,
+or something else of the DM's choosing.
+
+If the scout fails, the party has a random encounter.
+
+Random Encounters {#encounters}
+===============================
+
+The party can only have one random encounter on a journey,
+no matter how may encounter results the party chooses,
+because no one has the patience for more than one.
+Instead, each random encounter result chosen
+increases the chance of having a more difficult encounter.
+You can use this handy tool to generate an encounter
+of the appropriate difficulty for the terrain the party is in.
+An environmental hazard result can include anything
+from inclement weather, to a bridge being out, to quicksand, or a rockslide,
+or flaming gases shooting up from the ground that the party has to navigate.
+Reference the hazard danger entry on the terrain type
+to set appropriate skill DCs and damage levels for the hazard
+(it's a trap, basically).
+
+<table class=data>
+	<caption>Encounter Difficulty</caption>
+	<thead>
+		<tr>
+			<th>d20 roll
+			<th>1 Failure
+			<th>2 Failures
+			<th>3 Failures
+	</thead>
+	<tr><td>1<td>Environmental Hazard<td>Environmental Hazard<td>Environmental Hazard
+	<tr><td>2<td>Environmental Hazard<td>Environmental Hazard<td>Environmental Hazard
+	<tr><td>3<td>Environmental Hazard<td>Environmental Hazard<td>Environmental Hazard
+	<tr><td>4<td>Environmental Hazard<td>Environmental Hazard<td>Environmental Hazard
+	<tr><td>5<td>Easy Encounter<td>Easy Encounter<td>Moderate Encounter
+	<tr><td>6<td>Easy Encounter<td>Easy Encounter<td>Moderate Encounter
+	<tr><td>7<td>Easy Encounter<td>Easy Encounter<td>Moderate Encounter
+	<tr><td>8<td>Easy Encounter<td>Moderate Encounter<td>Moderate Encounter
+	<tr><td>9<td>Easy Encounter<td>Moderate Encounter<td>Moderate Encounter
+	<tr><td>10<td>Easy Encounter<td>Moderate Encounter<td>Moderate Encounter
+	<tr><td>11<td>Moderate Encounter<td>Moderate Encounter<td>Hard Encounter
+	<tr><td>12<td>Moderate Encounter<td>Moderate Encounter<td>Hard Encounter
+	<tr><td>13<td>Moderate Encounter<td>Moderate Encounter<td>Hard Encounter
+	<tr><td>14<td>Moderate Encounter<td>Moderate Encounter<td>Hard Encounter
+	<tr><td>15<td>Moderate Encounter<td>Moderate Encounter<td>Hard Encounter
+	<tr><td>16<td>Moderate Encounter<td>Hard Encounter<td>Hard Encounter
+	<tr><td>17<td>Hard Encounter<td>Hard Encounter<td>Hard Encounter
+	<tr><td>18<td>Hard Encounter<td>Hard Encounter<td>Hard Encounter
+	<tr><td>19<td>Hard Encounter<td>Hard Encounter<td>Deadly Encounter
+	<tr><td>20<td>Deadly Encounter<td>Deadly Encounter<td>Deadly Encounter
+</table>

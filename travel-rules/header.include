@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>[TITLE]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style data-fill-with="stylesheet"></style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap" rel="stylesheet">
+  <link rel=stylesheet href="dnd.css">
+</head>
+<body class="h-entry">
+<div class="head">
+  <h1 id="title" class="p-name no-ref">[TITLE]</h1>
+  <h2 id="profile-and-date" class="no-num no-toc no-ref">
+    <time class="dt-updated" datetime="[ISODATE]">[DATE]</time>
+  </h2>
+  <div data-fill-with="spec-metadata"></div>
+  <div data-fill-with="warning"></div>
+</div>
+
+<div class="p-summary" data-fill-with="abstract"></div>
+
+<hr>
+
+<nav data-fill-with="table-of-contents" id="toc"></nav>
+<main>
