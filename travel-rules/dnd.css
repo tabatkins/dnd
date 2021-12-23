@@ -124,18 +124,7 @@ monster- > h-:nth-child(n+2) {
 	border-bottom: 1px solid;
 	margin-top:  .5em;
 }
-monster- > table:first-of-type { /* stats */
-	table-layout:  fixed;
-	width: 100%;
-}
-monster- > table:first-of-type td,
-monster- > table:first-of-type th {
-	width: calc(100% / 6);
-	text-align: center;
-}
-monster- > table:first-of-type tr {
-	background: none !important;
-}
+
 monster- > ul {
 	list-style:  none;
 	padding: .4em 0;

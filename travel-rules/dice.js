@@ -15,6 +15,9 @@ export function averageRoll(n=1, sides=20, bonus=0) {
 export class Dice extends HTMLElement {
   constructor() {
     super();
+  }
+
+  connectedCallback() {
     const text = this.textContent.trim();
     let match;
     if(match = /^[+-]\d+$/.exec(text)) {

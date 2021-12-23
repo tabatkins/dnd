@@ -231,10 +231,7 @@ to set appropriate skill DCs and damage levels for the hazard
 	- **Hit Points** <d->15d10 + 75</d->
 	- **Speed** 40 ft., climb 20 ft., fly 20 ft.
 
-	<table>
-		<thead><tr><th>STR<th>DEX<th>CON<th>INT<th>WIS<th>CHA
-		<tbody><tr><td>22 (<d->+6</d->)<td>12 (<d->+1</d->)<td>20 (<d->+5</d->)<td>10 (<d->+0</d->)<td>12 (<d->+1</d->)<td>18 (<d->+4</d->)
-	</table>
+	<attributes->22 11 20 10 12 18</attributes->
 
 	- **Saving Throws** Con <d->+8</d->, Int <d->+3</d->, Wis <d->+4</d->, Cha <d->+7</d->
 	- **Skills** Perception <d->+4</d->, Stealth <d->+4</d->

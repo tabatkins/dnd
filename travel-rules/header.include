@@ -13,6 +13,7 @@
 	<link rel=stylesheet href="dnd.css">
 	<script type=module src=dice.js></script>
 	<script type=module src=spell-.js></script>
+	<script type=module src=attributes.js></script>
 </head>
 <body class="h-entry">
 <div class="head">
