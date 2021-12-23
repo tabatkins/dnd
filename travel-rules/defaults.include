@@ -1,5 +1,6 @@
 {
 	"No Editor": "true",
 	"Markup Shorthands": "markdown on",
-	"Abstract": ""
+	"Abstract": "",
+	"Block Elements": "monster-, h-"
 }

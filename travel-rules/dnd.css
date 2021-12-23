@@ -16,8 +16,8 @@ body {
 	letter-spacing: 1px;
 	background: url("paper.jpeg") var(--bg);
 	background-repeat: repeat;
-	background-size: 100% auto;
-	line-height: 1.2;
+	background-size: 100vw auto;
+	line-height: 1.3;
 }
 
 #toc#toc {
@@ -43,6 +43,22 @@ h2 + *, h3 + * {
 	margin-top: 0;
 }
 
+p {
+	margin: .1em 0;
+}
+p + p {
+	text-indent:  1em;
+}
+
+
+a {
+	color: blue;
+}
+a:visited {
+	color:  purple;
+}
+
+
 table {
 	font-family: Hind, sans-serif;
 	letter-spacing: 0;
@@ -66,12 +82,83 @@ table.data th, table.data td {
 	border: none;
 }
 
-.note.note {
-	background: var(--bg-alt);
+aside {
+	background: linear-gradient(to bottom, var(--text) 2px, var(--bg-alt) 0, var(--bg-alt) calc(100% - 2px), var(--text) 0);
+	padding: .5em;
+	margin: .5em 0;
 	border-color: var(--fg-heading);
 }
+aside > h- {
+	display: block;
+	font-family: Hind, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-bottom: .1em;
+}
+aside > h- + * {
+	margin-top: 0;
+}
 
-.issue, .note, .example, .assertion, .advisement, blockquote, .amendment, .correction, .addition {
-	border-width: 2px;
-	border-style: none none solid solid;
+monster- {
+	display: block;
+	background: var(--bg);
+	box-shadow: 0 0 3px var(--text);
+	padding: .5em;
+	min-width: min(80vw, 400px);
+	max-width: 40em;
+	margin: 1em auto;
+	font-family: Hind, sans-serif;
+}
+monster- > h-:first-child {
+	display: block;
+	font-family: Domine, serif;
+	font-size: 2em;
+	font-variant: small-caps;
+}
+monster- > h-:nth-child(n+2) {
+	display: block;
+	font-family: Hind, sans-serif;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	border-bottom: 1px solid;
+	margin-top:  .5em;
+}
+monster- > table:first-of-type { /* stats */
+	table-layout:  fixed;
+	width: 100%;
+}
+monster- > table:first-of-type td,
+monster- > table:first-of-type th {
+	width: calc(100% / 6);
+	text-align: center;
+}
+monster- > table:first-of-type tr {
+	background: none !important;
+}
+monster- > ul {
+	list-style:  none;
+	padding: .4em 0;
+	margin: .4em 0;
+	border: 3px solid var(--fg-heading);
+	border-style: solid none;
+}
+monster- > ul > li {
+	margin:  0;
+}
+monster- > dl > dt {
+	float: left;
+	font-weight: bold;
+	font-style: italic;
+	margin-right: .3em;
+}
+monster- > dl > dd {
+	margin: 1em 0;
+}
+
+spell- {
+	font-style: italic;
+}
+
+d- {
 }

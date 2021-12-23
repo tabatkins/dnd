@@ -4,6 +4,7 @@ Group: rpg
 Status: DREAM
 Shortname: travel-rules
 Local Boilerplate: header on, footer on, defaults on
+Boilerplate: style-darkmode off
 </pre>
 
 <div boilerplate=abstract>
@@ -84,28 +85,24 @@ The difficulty for each roll is based on the terrain the players traverse.
 Each character only rolls once for each leg of the journey,
 the DC is based on the most difficult terrain traveled during that leg.
 
-<dl class=note>
-	<dt>Rangers
+<aside>
+	<h->Rangers</h->
 
-	<dd>
+	The Players Handbook Ranger's Natural Explorer feature of the ranger
+	is modified under these rules.
 
-		The Players Handbook Ranger's Natural Explorer feature of the ranger
-		is modified under these rules.
-
-		Remove the prevents party becoming lost,
-		and remove doubling food foraged.
-		The Wilderness Ranger's Hunting Grounds is also modified,
-		remove the doubling food foraged feature.
-
-		The ranger automatically succeeds
-		with whatever role they take during the journey.
-		Alternately, the ranger may choose to roll with advantage
-		to try for a 5+ result,
-		but must accept the results if they fail.
-
-		This only applies if traveling through terrain
-		applicable to either of these features.
-</dl>
+	Remove the prevents party becoming lost,
+	and remove doubling food foraged.
+	The Wilderness Ranger's Hunting Grounds is also modified,
+	remove the doubling food foraged feature.
+	The ranger automatically succeeds
+	with whatever role they take during the journey.
+	Alternately, the ranger may choose to roll with advantage
+	to try for a 5+ result,
+	but must accept the results if they fail.
+	This only applies if traveling through terrain
+	applicable to either of these features.
+</aside>
 
 The Trailblazer {#trailblazer}
 ------------------------------
@@ -119,7 +116,6 @@ the party gets to their destination in the expected amount of time.
 If the trailblazer succeeds by 5+ on the Nature roll,
 the party finds a shortcut or other method of moving faster than normal;
 the trip only takes 3/4 the normal time.
-
 If the trailblazer fails,
 the party gets lost for a time and a complication occurs.
 The trailblazer chooses one:
@@ -142,11 +138,10 @@ to plan and purchase provisions
 to carefully ration out those provisions,
 and to forage and hunt for additional food along the way.
 The base cost for the expedition is 1 gp per day per person.
+
 If the provisioner succeeds their survival roll,
 the party pays the base cost.
-
 If the provisioner succeeds by 5+, the cost is halved.
-
 If the provisioner fails their roll,
 a complication occurs.
 The provisioner chooses one:
@@ -176,7 +171,6 @@ they find a hidden treasure cache,
 catch an enemy hunting party unaware,
 come across a roadside shrine that grants the party a boon,
 or something else of the DM's choosing.
-
 If the scout fails, the party has a random encounter.
 
 Random Encounters {#encounters}
@@ -187,6 +181,7 @@ no matter how may encounter results the party chooses,
 because no one has the patience for more than one.
 Instead, each random encounter result chosen
 increases the chance of having a more difficult encounter.
+
 You can use this handy tool to generate an encounter
 of the appropriate difficulty for the terrain the party is in.
 An environmental hazard result can include anything
@@ -226,3 +221,67 @@ to set appropriate skill DCs and damage levels for the hazard
 	<tr><td>19<td>Hard Encounter<td>Hard Encounter<td>Deadly Encounter
 	<tr><td>20<td>Deadly Encounter<td>Deadly Encounter<td>Deadly Encounter
 </table>
+
+<monster->
+	<h->Young Cave Dragon</h->
+
+	*Large dragon, neutral evil*
+
+	- **Armor Class** 17 (natural armor)
+	- **Hit Points** <d->15d10 + 75</d->
+	- **Speed** 40 ft., climb 20 ft., fly 20 ft.
+
+	<table>
+		<thead><tr><th>STR<th>DEX<th>CON<th>INT<th>WIS<th>CHA
+		<tbody><tr><td>22 (<d->+6</d->)<td>12 (<d->+1</d->)<td>20 (<d->+5</d->)<td>10 (<d->+0</d->)<td>12 (<d->+1</d->)<td>18 (<d->+4</d->)
+	</table>
+
+	- **Saving Throws** Con <d->+8</d->, Int <d->+3</d->, Wis <d->+4</d->, Cha <d->+7</d->
+	- **Skills** Perception <d->+4</d->, Stealth <d->+4</d->
+	- **Damage Immunities** acid, poison, thunder
+	- **Condition Immunities** poisoned
+	- **Senses** blindsight 120 ft., passive Perception 14
+	- **Languages** Common, Darakhul, Draconic
+	- **Challenge** 8 (3,900 XP)
+
+	: Tunneler.
+	:: The cave dragon can burrow through solid rock at half its burrowing speed and leaves a 10-foot wide, 5-foot high tunnel in its wake.
+
+	: Innate Spellcasting.
+	:: The dragon's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:
+
+	1/day each: <spell->blur</spell->, <spell->counterspell</spell->, <spell->web</spell-><br>
+	3/day: <spell->darkness</spell->
+
+	<h->Actions</h->
+	: Multiattack.
+	:: The dragon makes three attacks; one with its bite and two with its claws.
+
+	: Bite.
+	::	*Melee Weapon Attack:* <d->+8</d-> to hit, reach 10 ft., one target.
+		*Hit:* <d->2d6 + 6</d-> piercing damage plus <d->1d6</d-> poison damage.
+
+	: Claw.
+	::	*Melee Weapon Attack:* <d->+8</d-> to hit, reach 10 ft., one target.
+		*Hit:* <d->2d6 + 6</d-> slashing damage.
+
+	: Poison Breath (<d->Recharge 5-6</d->).
+	::	The dragon exhales a cone of black poison gas in a 30-foot cone.
+		Each creature in that area must make a DC 16 Constitution saving throw,
+		taking <d->13d6</d-> poison damage on a failed save and becoming poisoned if it is a creature.
+		The poisoned condition lasts until the target takes a long or short rest
+		or removes the condition with lesser restoration or comparable magic.
+		If the save is successful,
+		the target takes half damage and is not poisoned.
+
+	<h->Reactions</h->
+	: Ruff Spikes.
+	::	When a creature tries to enter a space adjacent to a cave dragon,
+		the dragon flares its many feelers and spikes.
+		The creature cannot enter a space adjacent to the dragon
+		unless it makes a successful DC 16 Dexterity saving throw.
+		If the saving throw fails,
+		the creature can keep moving
+		but only into spaces that aren't within 5 feet of the dragon
+		and takes <d->1d8</d-> piercing damage from spikes.
+</monster->
