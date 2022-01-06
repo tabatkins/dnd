@@ -12,6 +12,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap" rel="stylesheet">
 	<link rel=stylesheet href="dnd.css">
 	<script type=module src=dice.js></script>
+	<script type=module>
+		import * as r from "./dice.js";
+		window.r = r;
+	</script>
 	<script type=module src=spell-.js></script>
 	<script type=module src=attributes.js></script>
 </head>
